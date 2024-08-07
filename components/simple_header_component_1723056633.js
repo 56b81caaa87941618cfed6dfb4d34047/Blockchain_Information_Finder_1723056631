@@ -3,11 +3,11 @@
 
 Vue.component("simple_header_component_1723056633", {
     template: `
-    <header id="header-section" class="w-full">
+    <header id="header-section" style="min-height: 270px" class="w-full">
         <nav id="nav-bar" class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a id="logo-link" href="#" class="flex items-center">
-                    <img id="logo-image" src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                    <img id="logo-image" src="https://127.0.0.1:$PORT/get_image/Blockchain_Information_Finder_1723056631/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
                     <span id="app-name" class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">BlockScope: Blockchain Intel Finder</span>
                 </a>
                 <div id="menu-toggle-button" class="flex items-center lg:order-2">
